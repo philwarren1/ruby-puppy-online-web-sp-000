@@ -5,10 +5,14 @@ class Dog
   @@all = []
   
   def initialize(name)
-    self >> @@all
+    @@all
   end
   
   def self.all 
     @@all
   end
+  
+  def self.print_all
+    
+    puts name
 end 
